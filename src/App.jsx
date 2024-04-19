@@ -1,35 +1,98 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+/* eslint-disable react/prop-types */
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Home from './components/Home';
+import About from './components/About';
+import Contact from './components/Contact';
+import Snapbacks from './components/Snapbacks';
+import Tshirt from './components/Tshirt';
+import LimitedEdition from './components/LimitedEdition';
+import PageNotFound from './components/PageNotFound';
+import Header from './components/reusableComponents/Header';
+import Footer from './components/reusableComponents/Footer';
+import Offer from './components/reusableComponents/Offer';
+import Subscribe from './components/Home/Subscribe';
 
-function App() {
-  const [count, setCount] = useState(0)
-
+// Custom layout component for normal routes
+const DefaultLayout = ({ children }) => {
   return (
     <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      <Offer />
+      <Header />
+      {children}
+      <Subscribe />
+      <Footer />
     </>
-  )
+  );
+};
+
+// Custom layout component for PageNotFound route
+const NoLayout = ({ children }) => {
+  return <>{children}</>;
+};
+
+function App() {
+  return (
+    <BrowserRouter>
+      <Routes>
+        <Route
+          path='/'
+          element={
+            <DefaultLayout>
+              <Home />
+            </DefaultLayout>
+          }
+        />
+        <Route
+          path='/about'
+          element={
+            <DefaultLayout>
+              <About />
+            </DefaultLayout>
+          }
+        />
+        <Route
+          path='/contact'
+          element={
+            <DefaultLayout>
+              <Contact />
+            </DefaultLayout>
+          }
+        />
+        <Route
+          path='/snapbacks'
+          element={
+            <DefaultLayout>
+              <Snapbacks />
+            </DefaultLayout>
+          }
+        />
+        <Route
+          path='/s8ul-exclusive-merch'
+          element={
+            <DefaultLayout>
+              <Tshirt />
+            </DefaultLayout>
+          }
+        />
+        <Route
+          path='/limited-edition'
+          element={
+            <DefaultLayout>
+              <LimitedEdition />
+            </DefaultLayout>
+          }
+        />
+        <Route
+          path='*'
+          element={
+            <NoLayout>
+              <PageNotFound />
+            </NoLayout>
+          }
+        />
+      </Routes>
+    </BrowserRouter>
+  );
 }
 
-export default App
+export default App;
