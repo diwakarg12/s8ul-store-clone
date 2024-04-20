@@ -3,8 +3,8 @@
 const AboutS8ul = () => {
   return (
     <div className='bg-[#1F1F21] pt-12 pb-24 flex flex-col items-center justify-center w-full'>
-      <div className='bg-transparent text-[#FFFFFFBF] w-1/2 text-center '>
-        <h1 className='text-6xl font-oswald text-white pb-8'>
+      <div className='bg-transparent text-[#FFFFFFBF] md:w-1/2 sm:w-full md:text-center sm:text-start  md:px-0 sm:pl-4 '>
+        <h1 className='md:text-6xl sm:text-5xl font-oswald text-white pb-8'>
           About S8UL Store
         </h1>
         <h4 className='text-base font-avenir mb-4'>

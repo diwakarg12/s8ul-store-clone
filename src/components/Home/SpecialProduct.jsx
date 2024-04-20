@@ -9,13 +9,13 @@ import ProductQunatity from "../ProductQunatity";
 
 const SpecialProduct = ({url, title, amount}) => {
   return (
-    <div className='bg-black flex py-24 px-32 border-b'>
-      <div className="w-1/2">
-        <img src={url} alt={title} className="h-[75vh]" />
+    <div className='bg-black flex flex-wrap items-center justify-center md:py-24 md:px-32 sm:py-12 px-4 border-b w-full'>
+      <div className="md:w-1/2 sm:w-full">
+        <img src={url} alt={title} className="md:h-[75vh] sm:h-[55vh] sm:w-full" />
       </div>
-      <div className="w-1/2 pl-24">
+      <div className="md:w-1/2 sm:w-full lg:pl-24 sm:pl-4 sm:mt-12 md:mt-0">
         <p className="text-slate-400 text-sm font-avenir">S8UL STORE</p>
-        <h1 className='text-white text-[3.5rem] font-oswald mb-4'>{title}</h1>
+        <h1 className='text-white md:text-[3.5rem] sm:text-[2.5rem] font-oswald mb-4'>{title}</h1>
         <div className="flex items-center justify-start mb-6">
           {/* <p className="text-slate-300"></p> */}
           <p className="text-white text-lg font-avenir">{amount}</p>
@@ -30,7 +30,7 @@ const SpecialProduct = ({url, title, amount}) => {
             <p className='flex'>Share <CiShare1 className='mt-1 ml-2 text-lg font-bold' /></p>
             <p className='flex'>View Description <FaArrowRightLong className='mt-1 ml-2' /></p>
         </div>
-        <p className='text-white mt-4 ml-4'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero iusto modi iste accusamus praesentium aut blanditiis, officiis eum vitae enim est, omnis qui ullam delectus! Iure qui aliquam facere libero id doloribus quod exercitationem explicabo omnis cupiditate deserunt natus vitae tenetur asperiores ab, nulla maiores. Excepturi corrupti saepe, itaque et nesciunt amet exercitationem ut similique quia minus aliquid. Minus natus, excepturi et explicabo porro iusto doloremque esse, animi tenetur autem consequatur exercitationem iure quas tempora hic in, dolore quasi eum expedita eligendi voluptatem provident consequuntur cupiditate minima! Illum, sunt, obcaecati tempora, voluptates numquam rem consequuntur sequi quibusdam ad minus eaque.</p>
+        <p className='text-white mt-4 md:ml-4 sm:ml-0'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero iusto modi iste accusamus praesentium aut blanditiis, officiis eum vitae enim est, omnis qui ullam delectus! Iure qui aliquam facere libero id doloribus quod exercitationem explicabo omnis cupiditate deserunt natus vitae tenetur asperiores ab, nulla maiores. Excepturi corrupti saepe, itaque et nesciunt amet exercitationem ut similique quia minus aliquid. Minus natus, excepturi et explicabo porro iusto doloremque esse, animi tenetur autem consequatur exercitationem iure quas tempora hic in, dolore quasi eum expedita eligendi voluptatem provident consequuntur cupiditate minima! Illum, sunt, obcaecati tempora, voluptates numquam rem consequuntur sequi quibusdam ad minus eaque.</p>
       </div>
     </div>
   );

@@ -12,6 +12,7 @@ const Home = () => {
       <HomeProducts
         heading='New In Snapbacks'
         style={'bg-[#1f1f1f]'}
+        style2={'text-white'}
         Data={Caps}
         number={18}
       />
@@ -28,18 +29,21 @@ const Home = () => {
       <HomeProducts
         heading='Limited Drop'
         style={'bg-[#1f1f1f]'}
+        style2={'text-white'}
         Data={Limited}
         number={6}
       />
       <HomeProducts
         heading='Back in Stock'
         style={'bg-[#1f1f1f]'}
+        style2={'text-white'}
         Data={Tshirt}
         number={6}
       />
       <HomeProducts
         heading='Champions Edition'
         style={'bg-[#1f1f1f]'}
+        style2={'text-white'}
         Data={Champion}
         number={2}
       />

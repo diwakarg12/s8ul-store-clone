@@ -5,7 +5,7 @@ import { shortby } from '../../utilities/SelectData';
 const Filter = () => {
   return (
     <div>
-      <div className='w-11/12 absolute flex justify-between ml-12'>
+      <div className='w-11/12 absolute flex justify-between md:ml-12 sm:ml-6'>
         <p className='flex mt-10 font-avenir text-base'>
           <svg
             className='w-6 h-6 mr-2'

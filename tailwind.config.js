@@ -11,7 +11,13 @@ export default {
         'avenir': ['Avenir Next', 'sans-serif'],
       },
     },
+    screens: {
+      'sm': { 'min': '320px' },
+      'md': { 'min': '767px' },
+      'lg': { 'min': '1024px' },
+    }
   },
+
   plugins: [],
 }
 

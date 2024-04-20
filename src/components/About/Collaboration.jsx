@@ -3,8 +3,8 @@
 const Collaboration = () => {
   return (
     <div className='bg-[#e3fc02] py-8 flex flex-col items-center justify-center w-full'>
-      <div className='w-1/2 text-center'>
-        <h1 className='text-5xl font-[950] font-oswald mb-4 text-[#1F1F21]'>
+      <div className='md:w-1/2 sm:w-full md:px-0 sm:px-4 md:text-center sm:text-start'>
+        <h1 className='md:text-5xl sm:text-3xl font-[950] font-oswald mb-4 text-[#1F1F21]'>
           Drippin Monkey X S8UL Gaming Collaboration
         </h1>
         <p className='text-[#1F1F21BF] text-lg font-avenir mb-4'>
@@ -15,7 +15,7 @@ const Collaboration = () => {
           repudiandae eum, quam perspiciatis illum natus illo at? Accusamus, quo
           vero! Quidem!
         </p>
-        <h4 className='text-[#1F1F21BF] text-lg font-avenir font-semibold'>
+        <h4 className='text-[#1F1F21BF] text-lg font-avenir font-[950]'>
           Our Vision:
         </h4>
         <p className='text-[#1F1F21BF] text-lg font-avenir mt-4'>

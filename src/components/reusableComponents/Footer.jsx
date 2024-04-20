@@ -7,20 +7,35 @@ const Footer = () => {
         <h1 className='text-center font-oswald text-white text-2xl font-bold mb-6'>
           Quick links
         </h1>
-        <div className='flex items-center justify-center text-slate-400 text-base font-avenir '>
-          <Link to='/' className='hover:text-white hover:underline mr-8'>
+        <div className='flex md:flex-row sm:flex-col items-center justify-center text-slate-400 text-base font-avenir '>
+          <Link
+            to='/'
+            className='hover:text-white hover:underline md:mr-8 sm:mr-0 md:py-0 sm:py-2'
+          >
             About Us
           </Link>
-          <Link to='/' className='hover:text-white hover:underline mr-8'>
+          <Link
+            to='/'
+            className='hover:text-white hover:underline md:mr-8 sm:mr-0 md:py-0 sm:py-2'
+          >
             Privacy Policy
           </Link>
-          <Link to='/' className='hover:text-white hover:underline mr-8'>
+          <Link
+            to='/'
+            className='hover:text-white hover:underline md:mr-8 sm:mr-0 md:py-0 sm:py-2'
+          >
             Refund Policy
           </Link>
-          <Link to='/' className='hover:text-white hover:underline mr-8'>
+          <Link
+            to='/'
+            className='hover:text-white hover:underline md:mr-8 sm:mr-0 md:py-0 sm:py-2'
+          >
             Terms of Service
           </Link>
-          <Link to='/' className='hover:text-white hover:underline mr-8'>
+          <Link
+            to='/'
+            className='hover:text-white hover:underline md:mr-8 sm:mr-0 md:py-0 sm:py-2'
+          >
             Shipping Policy
           </Link>
         </div>
@@ -53,7 +68,9 @@ const Footer = () => {
             className='w-12 h-[1.8rem] object-fill mr-4 bg-white'
           />
         </div>
-        <p className='text-slate-300 font-avenir pl-8'>&copy; 2024, S8UL STORE Powered by Drippin Moncky</p>
+        <p className='text-slate-300 font-avenir pl-8'>
+          &copy; 2024, S8UL STORE Powered by Drippin Moncky
+        </p>
       </div>
     </footer>
   );
