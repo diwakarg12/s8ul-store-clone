@@ -11,6 +11,8 @@ import Header from './components/reusableComponents/Header';
 import Footer from './components/reusableComponents/Footer';
 import Offer from './components/reusableComponents/Offer';
 import Subscribe from './components/Home/Subscribe';
+import SingleProduct from './components/reusableComponents/SingleProduct';
+import Login from './components/reusableComponents/Login';
 
 // Custom layout component for normal routes
 const DefaultLayout = ({ children }) => {
@@ -83,6 +85,22 @@ function App() {
           }
         />
         <Route
+          path='/product/:title'
+          element={
+            <DefaultLayout>
+              <SingleProduct />
+            </DefaultLayout>
+          }
+        />
+        <Route
+          path='/login'
+          element={
+            <DefaultLayout>
+              <Login />
+            </DefaultLayout>
+          }
+        />
+        <Route
           path='*'
           element={
             <NoLayout>
@@ -94,5 +112,36 @@ function App() {
     </BrowserRouter>
   );
 }
+
+// export const Layout = ()=>{
+//   <>
+//   <Header />
+//   <Outlet />
+//   <Footer />
+//   </>
+// }
+
+// const router = createBrowserRouter([
+//   {
+//     path: '/',
+//     element: <Layout />,
+//     children: [
+//       {
+//         path: '/',
+//         element: <Home />
+//       },
+//       {
+//         path: '/about',
+//         element: <About />
+//       },
+//       {
+//         path: '/contact',
+//         element: <Contact />
+//       }
+//     ]
+//   }
+// ])
+
+// <RouterProvider router={router} />
 
 export default App;

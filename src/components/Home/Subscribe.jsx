@@ -16,7 +16,7 @@ const Subscribe = () => {
         className='py-4 pl-4 w-[22.5rem] bg-transparent border border-black placeholder:text-black focus:outline-none'
         required
       />
-      <FaArrowRightLong className='absolute lg:mt-36 lg:ml-72 sm:mt-60 sm:ml-72 font-avenir font-normal' />
+      <FaArrowRightLong className='absolute lg:mt-36 lg:ml-72 md:mt-36 sm:mt-60 sm:ml-72 font-avenir font-normal' />
     </div>
   );
 };

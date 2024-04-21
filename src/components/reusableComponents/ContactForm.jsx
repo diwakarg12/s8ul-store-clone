@@ -5,7 +5,7 @@ const ContactForm = () => {
     <div className='bg-[#1F1F21] flex flex-col items-center justify-center border w-full pb-8'>
       <form
         action=''
-        className='text-base bg-transparent text-[FFFFFFBF] font-avenir flex flex-col md:w-1/2 sm:w-full pt-2 md:px-0 sm:px-2'
+        className='text-base bg-transparent text-[FFFFFFBF] font-avenir flex flex-col lg:w-1/2 md:w-10/12 sm:w-full pt-2 md:px-0 sm:px-2'
       >
         <div className='flex w-full'>
           <input

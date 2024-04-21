@@ -114,37 +114,62 @@ export const Limited = [
         id: 1,
         title: "Game-Time Flannel Shirt",
         price: '1,799.00',
-        img: "https://s8ul.store/cdn/shop/files/1_1edaa099-daee-4dcc-81ee-79222de00bab.png?v=1703585048&width=360"
+        img: "https://s8ul.store/cdn/shop/files/1_1edaa099-daee-4dcc-81ee-79222de00bab.png?v=1703585048&width=360",
+        img2:'https://s8ul.store/cdn/shop/files/2_895c9188-3b7c-430d-bb90-de25510dd0b0.png?v=1703585050&width=324',
+        img3:'https://s8ul.store/cdn/shop/files/3_451d342b-8c29-41c6-8ffb-6eeb9e650e53.png?v=1703585049&width=324',
+        img4:'https://s8ul.store/cdn/shop/files/4_b406105c-6815-4de8-bf23-48534345cbb5.png?v=1703585049&width=324',
+        img5:'https://s8ul.store/cdn/shop/files/Gametime.png?v=1703585048&width=324',
     },
     {
         id: 2,
         title: "Gravity Red",
         price: '2,499.00',
-        img: "https://s8ul.store/cdn/shop/files/2_5b6d7855-d35c-4a28-bdb9-845ddce2ec0f.png?v=1703583459&width=360"
+        img: "https://s8ul.store/cdn/shop/files/2_5b6d7855-d35c-4a28-bdb9-845ddce2ec0f.png?v=1703583459&width=360",
+        img2: 'https://s8ul.store/cdn/shop/files/2_895c9188-3b7c-430d-bb90-de25510dd0b0.png?v=1703585050&width=324',
+        img3: 'https://s8ul.store/cdn/shop/files/3_451d342b-8c29-41c6-8ffb-6eeb9e650e53.png?v=1703585049&width=324',
+        img4: 'https://s8ul.store/cdn/shop/files/4_b406105c-6815-4de8-bf23-48534345cbb5.png?v=1703585049&width=324',
+        img5: 'https://s8ul.store/cdn/shop/files/Gametime.png?v=1703585048&width=324',
+        
     },
     {
         id: 3,
         title: "Yellow Flannel Shirt",
         price: '1,799.00',
-        img: "https://s8ul.store/cdn/shop/files/1.1.png?v=1703585494&width=360"
+        img: "https://s8ul.store/cdn/shop/files/1.1.png?v=1703585494&width=360",
+        img2: 'https://s8ul.store/cdn/shop/files/2_895c9188-3b7c-430d-bb90-de25510dd0b0.png?v=1703585050&width=324',
+        img3: 'https://s8ul.store/cdn/shop/files/3_451d342b-8c29-41c6-8ffb-6eeb9e650e53.png?v=1703585049&width=324',
+        img4: 'https://s8ul.store/cdn/shop/files/4_b406105c-6815-4de8-bf23-48534345cbb5.png?v=1703585049&width=324',
+        img5: 'https://s8ul.store/cdn/shop/files/Gametime.png?v=1703585048&width=324',
     },
     {
         id: 4,
         title: "Lightning Flannel Shirt",
         price: '1,799.00',
-        img: "https://s8ul.store/cdn/shop/files/3_e0124672-f616-4a28-b81c-baeba8f479df.png?v=1703583820&width=360"
+        img: "https://s8ul.store/cdn/shop/files/3_e0124672-f616-4a28-b81c-baeba8f479df.png?v=1703583820&width=360",
+        img2: 'https://s8ul.store/cdn/shop/files/2_895c9188-3b7c-430d-bb90-de25510dd0b0.png?v=1703585050&width=324',
+        img3: 'https://s8ul.store/cdn/shop/files/3_451d342b-8c29-41c6-8ffb-6eeb9e650e53.png?v=1703585049&width=324',
+        img4: 'https://s8ul.store/cdn/shop/files/4_b406105c-6815-4de8-bf23-48534345cbb5.png?v=1703585049&width=324',
+        img5: 'https://s8ul.store/cdn/shop/files/Gametime.png?v=1703585048&width=324',
     },
     {
         id: 5,
         title: "Ruthless Flannel Shirt",
         price: '1,799.00',
-        img: "https://s8ul.store/cdn/shop/files/2.1.png?v=1703585650&width=360"
+        img: "https://s8ul.store/cdn/shop/files/2.1.png?v=1703585650&width=360",
+        img2: 'https://s8ul.store/cdn/shop/files/2_895c9188-3b7c-430d-bb90-de25510dd0b0.png?v=1703585050&width=324',
+        img3: 'https://s8ul.store/cdn/shop/files/3_451d342b-8c29-41c6-8ffb-6eeb9e650e53.png?v=1703585049&width=324',
+        img4: 'https://s8ul.store/cdn/shop/files/4_b406105c-6815-4de8-bf23-48534345cbb5.png?v=1703585049&width=324',
+        img5: 'https://s8ul.store/cdn/shop/files/Gametime.png?v=1703585048&width=324',
     },
     {
         id: 6,
         title: "Arcade Classic Flannel Shirt",
         price: '1,799.00',
-        img: "https://s8ul.store/cdn/shop/files/3.1.png?v=1703585929&width=360"
+        img: "https://s8ul.store/cdn/shop/files/3.1.png?v=1703585929&width=360",
+        img2: 'https://s8ul.store/cdn/shop/files/2_895c9188-3b7c-430d-bb90-de25510dd0b0.png?v=1703585050&width=324',
+        img3: 'https://s8ul.store/cdn/shop/files/3_451d342b-8c29-41c6-8ffb-6eeb9e650e53.png?v=1703585049&width=324',
+        img4: 'https://s8ul.store/cdn/shop/files/4_b406105c-6815-4de8-bf23-48534345cbb5.png?v=1703585049&width=324',
+        img5: 'https://s8ul.store/cdn/shop/files/Gametime.png?v=1703585048&width=324',
     },
 ]
 

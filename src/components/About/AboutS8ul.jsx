@@ -1,4 +1,5 @@
 // import React from 'react'
+import AddToCart from '../reusableComponents/AddToCart'
 
 const AboutS8ul = () => {
   return (
@@ -32,18 +33,26 @@ const AboutS8ul = () => {
           Thank you for Choosing S8ul Gaming Merch - Where Gaming Comes to life!
         </h4>
         {/* <div className=" flex items-center justify-around"> */}
-          <button
-            type='button'
-            className='bg-[#e3fc02] text-[#1F1F21BF] py-2 px-4 mr-4'
-          >
-            Follow on instagram
-          </button>
-          <button
-            type='button'
-            className='bg-[#e3fc02] text-[#1F1F21BF] py-2 px-4 ml-4'
-          >
-            Follow on Youtube
-          </button>
+        {/* <button
+          type='button'
+          className='bg-[#e3fc02] text-[#1F1F21BF] py-2 px-4 mr-4'
+        >
+          Follow on instagram
+        </button> */}
+        <AddToCart
+          text='Follow on instagram'
+          style='bg-[#e3fc02] text-[#1F1F21BF] py-2 px-4 mr-4'
+        />
+        <AddToCart
+          text=' Follow on Youtube'
+          style='bg-[#e3fc02] text-[#1F1F21BF] py-2 px-4 ml-4'
+        />
+        {/* <button
+          type='button'
+          className='bg-[#e3fc02] text-[#1F1F21BF] py-2 px-4 ml-4'
+        >
+          Follow on Youtube
+        </button> */}
         {/* </div> */}
       </div>
     </div>
