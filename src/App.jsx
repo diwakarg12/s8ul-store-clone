@@ -13,6 +13,8 @@ import Offer from './components/reusableComponents/Offer';
 import Subscribe from './components/Home/Subscribe';
 import SingleProduct from './components/reusableComponents/SingleProduct';
 import Login from './components/reusableComponents/Login';
+import Signup from './components/reusableComponents/Signup';
+import ShippingPolicy from './components/reusableComponents/ShippingPolicy';
 
 // Custom layout component for normal routes
 const DefaultLayout = ({ children }) => {
@@ -93,11 +95,29 @@ function App() {
           }
         />
         <Route
-          path='/login'
+          path='/shipping-policy'
           element={
             <DefaultLayout>
-              <Login />
+              <ShippingPolicy />
             </DefaultLayout>
+          }
+        />
+        <Route
+          path='/login'
+          element={
+            <NoLayout>
+              <Header />
+              <Login />
+            </NoLayout>
+          }
+        />
+        <Route
+          path='/register'
+          element={
+            <NoLayout>
+              <Header />
+              <Signup />
+            </NoLayout>
           }
         />
         <Route

@@ -6,51 +6,78 @@ import { FaGoogle } from 'react-icons/fa6';
 import { FaApple } from 'react-icons/fa6';
 import { FaFacebook } from 'react-icons/fa6';
 
-const Login = () => {
-  const [login, setLogin] = useState({
+const Signup = () => {
+  const [signup, setSignup] = useState({
+    name: '',
     email: '',
+    phone: '',
     password: '',
   });
+  const handleChange = (e) =>{
+    const {name, value} = e.target;
+    setSignup({
+      ...signup,
+      [name]: value,
+    });
+  }
 
-  const handleChange = (e) => {
-    const { name, value } = e.target;
-    setLogin({
-      ...login,
-      [name]:value,
-    })
-  };
-  const loginData = (e) => {
+  const signupData = (e) => {
     e.preventDefault();
-    console.log(login);
+    console.log(signup);
 
-    setLogin({
+    setSignup({
+      name: '',
       email: '',
+      phone: '',
       password: '',
     });
   };
   return (
     <section className='bg-[#1f1f1f] w-full h-full'>
       <div className='flex items-center justify-center  py-6'>
-        <div className='lg:w-2/5 sm:w-11/12 border flex flex-col items-center justify-center my-4 lg:px-12 md:px-20 sm:px-2 pt-8 pb-12 bg-white'> 
-          <h1 className='text-5xl font-[800] font-oswald py-6'>
-            Welcome back !!
-          </h1>
+        <div className='lg:w-2/5 sm:w-11/12 border flex flex-col items-center justify-center my-4 lg:px-12 md:px-20 sm:px-2 pt-8 pb-12 bg-white'>
+          <img
+            src='/images/S8UL_logo.avif'
+            className=' w-16 h-8 invert'
+            alt=''
+          />
+          <h1 className='text-5xl font-[800] font-oswald py-6'>New Account</h1>
           <p className='text-xl font-medium font-avenir pb-2 text-center'>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam
-            mollitia sit deleniti ullam.
+            Already have an account ?{' '}
+            <Link to='/login' className='text-blue-500 hover:underline'>
+              Sign in
+            </Link>
           </p>
           <form
             action=''
             className='flex flex-col items-center justify-center w-full'
-            onSubmit={loginData}
+            onSubmit={signupData}
           >
+            <input
+              placeholder='Name*'
+              className='border-2 border-black bg-transparent text-lg font-medium font-avenir my-2 py-3 px-4 focus:outline-none placeholder:text-red-700 w-full'
+              type='text'
+              name='name'
+              id='name'
+              value={signup.name}
+              onChange={handleChange}
+            />
             <input
               placeholder='Email*'
               className='border-2 border-black bg-transparent text-lg font-medium font-avenir my-2 py-3 px-4 focus:outline-none placeholder:text-red-700 w-full'
               type='email'
               name='email'
               id='email'
-              value={login.email}
+              value={signup.email}
+              onChange={handleChange}
+            />
+            <input
+              placeholder='Phone*'
+              className='border-2 border-black bg-transparent text-lg font-medium font-avenir my-2 py-3 px-4 focus:outline-none placeholder:text-red-700 w-full'
+              type='number'
+              name='phone'
+              id='phone'
+              value={signup.phone}
               onChange={handleChange}
             />
             <input
@@ -59,18 +86,13 @@ const Login = () => {
               type='password'
               name='password'
               id='password'
-              value={login.password}
+              value={signup.password}
               onChange={handleChange}
             />
-            <p className='flex justify-end w-full text-blue-600 font-avenir font-medium'>
-              <Link to='/signup' className='hover:underline'>
-                Forgot password ?
-              </Link>
-            </p>
             <input
               type='submit'
               className='border-2 border-black bg-transparent text-black text-xl font-avenir font-semibold my-2 py-2 focus:outline-none w-full'
-              value='Login'
+              value='Register'
             />
           </form>
           <div className='flex items-center justify-between w-full my-6'>
@@ -85,14 +107,8 @@ const Login = () => {
             <FaApple className='w-14 h-14 border text-white bg-[#1f1f1f] py-4 px-4 mx-3 rounded-full' />
             <FaFacebook className='w-14 h-14 border text-white bg-[#1f1f1f] py-4 px-4 mx-3  rounded-full' />
           </div>
-          <p className='pt-12 pb-2 text-lg font-avenir font-medium'>
-            Not a member?{' '}
-            <Link to='/register' className='text-blue-600 hover:underline'>
-              Register now
-            </Link>
-          </p>
         </div>
-        <div className='lg:w-2/5 sm:w-0 lg:block sm:hidden h-[45rem] border object-cover text-center '>
+        <div className='lg:w-2/5 sm:w-0 lg:block sm:hidden h-[47.3rem] border object-cover text-center'>
           <p className='absolute w-[30%] lg:block sm:hidden top-80 right-60 text-lg font-avenir font-[500]'>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis
             voluptatibus quod alias. Distinctio ad neque tenetur fugiat possimus
@@ -110,4 +126,4 @@ const Login = () => {
   );
 };
 
-export default Login;
+export default Signup;

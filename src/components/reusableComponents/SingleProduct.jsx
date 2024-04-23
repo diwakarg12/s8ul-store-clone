@@ -57,7 +57,10 @@ const SingleProduct = () => {
           <h3 className='text-lg font-avenir'>{data.price}</h3>
           <p className='font-avenir text-sm mb-4'>
             Tax included.{' '}
-            <Link to='' className='underline font-medium text-[#1f1f1f]'>
+            <Link
+              to='/shipping-policy'
+              className='underline font-medium text-[#1f1f1f]'
+            >
               Shipping
             </Link>{' '}
             calculated at checkout.

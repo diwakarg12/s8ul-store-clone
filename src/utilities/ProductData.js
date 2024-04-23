@@ -3,109 +3,166 @@ export const Caps = [
         id: 1,
         title: "Pixels Color Block Snapback",
         price: 999.00,
-        img: "https://s8ul.store/cdn/shop/files/1_64f7001e-232d-4362-9f29-bd3880044d3d.png?v=1710794165&width=360"
+        img: "https://s8ul.store/cdn/shop/files/1_64f7001e-232d-4362-9f29-bd3880044d3d.png?v=1710794165&width=360",
+        img2: 'https://s8ul.store/cdn/shop/files/2_8e135210-db67-4860-b99e-971417241e46.png?v=1710794166&width=1206',
+        img3: 'https://s8ul.store/cdn/shop/files/3_6c4c7e04-67be-4705-a734-570262058b15.png?v=1710794165&width=1206',
+        img4: 'https://s8ul.store/cdn/shop/files/4_39bc73e0-b7cf-4fd4-8a0b-a1bc787ac440.png?v=1710794165&width=1206',
     },
     {
         id: 2,
         title: "S8UL Signage Snapback",
         price: 999.00,
-        img: "https://s8ul.store/cdn/shop/files/1_b336b80b-792a-401a-a7db-05deddb87228.png?v=1710795990&width=360"
+        img: "https://s8ul.store/cdn/shop/files/1_b336b80b-792a-401a-a7db-05deddb87228.png?v=1710795990&width=360",
+        img2: 'https://s8ul.store/cdn/shop/files/1_b336b80b-792a-401a-a7db-05deddb87228.png?v=1710795990&width=1206',
+        img3: 'https://s8ul.store/cdn/shop/files/3_934a0a94-38d3-4da9-912e-5058a5198a2d.png?v=1710795990&width=1206',
+        img4: 'https://s8ul.store/cdn/shop/files/4_cf1a7180-cb71-41c6-8c34-6c3381921db5.png?v=1710795990&width=1206',
     },
     {
         id: 3,
         title: "8-BIT Alaskan Blue Snapback",
         price: 999.00,
-        img: "https://s8ul.store/cdn/shop/files/1_228e2495-ae0c-45e9-ac91-8981c57454d6.png?v=1710792010&width=360"
+        img: "https://s8ul.store/cdn/shop/files/1_228e2495-ae0c-45e9-ac91-8981c57454d6.png?v=1710792010&width=360",
+        img2: 'https://s8ul.store/cdn/shop/files/2_b70738bf-3ce3-42b3-98aa-137ee22003fa.png?v=1710792010&width=1206',
+        img3: 'https://s8ul.store/cdn/shop/files/3_c6e5aefb-0d08-4ba0-b982-55c8dc5e3d94.png?v=1710792009&width=1206',
+        img4: 'https://s8ul.store/cdn/shop/files/3_c6e5aefb-0d08-4ba0-b982-55c8dc5e3d94.png?v=1710792009&width=1206',
     },
     {
         id: 4,
         title: "Swordman Olive Snapback",
         price: 999.00,
-        img: "https://s8ul.store/cdn/shop/files/1_6298a018-ce12-4353-8f55-4744d815ad04.png?v=1710793725&width=360"
+        img: "https://s8ul.store/cdn/shop/files/1_6298a018-ce12-4353-8f55-4744d815ad04.png?v=1710793725&width=360",
+        img2: 'https://s8ul.store/cdn/shop/files/2_4c42d41d-a79f-4a55-b389-198d5ebb375f.png?v=1710793725&width=1206',
+        img3: 'https://s8ul.store/cdn/shop/files/3_0f726db6-ad45-432d-80d8-cb198743a688.png?v=1710793725&width=1206',
+        img4: 'https://s8ul.store/cdn/shop/files/4_1e1158e3-2811-4451-88e2-2208a085db71.png?v=1710793725&width=1206',
     },
     {
         id: 5,
         title: "Swordman Orange Snapback",
         price: 999.00,
-        img: "https://s8ul.store/cdn/shop/files/1_d7b4fc92-fb16-4d7c-a98e-0b5a89e0dbe2.png?v=1710793652&width=360"
+        img: "https://s8ul.store/cdn/shop/files/1_d7b4fc92-fb16-4d7c-a98e-0b5a89e0dbe2.png?v=1710793652&width=360",
+        img2: 'https://s8ul.store/cdn/shop/files/2_438d7b51-63a2-4f98-b85d-ae1b8c23373f.png?v=1710793651&width=1206',
+        img3: 'https://s8ul.store/cdn/shop/files/3_405eff04-9f94-4331-a3dd-ee41cf2422a9.png?v=1710793651&width=1206',
+        img4: 'https://s8ul.store/cdn/shop/files/4_c17aec29-2eba-4cb4-adf4-0c0382b6f939.png?v=1710793651&width=1206',
     },
     {
         id: 6,
         title: "Pixels Black Snapback",
         price: 999.00,
-        img: "https://s8ul.store/cdn/shop/files/1_f5930340-544e-4142-8af3-32add6d341a5.png?v=1710794015&width=360"
+        img: "https://s8ul.store/cdn/shop/files/1_f5930340-544e-4142-8af3-32add6d341a5.png?v=1710794015&width=360",
+        img2: 'https://s8ul.store/cdn/shop/files/2_6b1a459f-1edf-4c4c-b601-d1263048900b.png?v=1710794016&width=1206',
+        img3: 'https://s8ul.store/cdn/shop/files/3_aed32cd7-d899-4890-ba9e-4d8b4f4ef58e.png?v=1710794015&width=1206',
+        img4: 'https://s8ul.store/cdn/shop/files/4_6fee6072-1e3e-4810-8119-c83ce709d81b.png?v=1710794015&width=1206',
     },
     {
         id: 7,
         title: "Fruit Of The Devil Black Snapback",
         price: 999.00,
-        img: "https://s8ul.store/cdn/shop/files/1_6c6f86ae-4f62-4879-9aed-d1c4748fff98.png?v=1710795107&width=360"
+        img: "https://s8ul.store/cdn/shop/files/1_6c6f86ae-4f62-4879-9aed-d1c4748fff98.png?v=1710795107&width=360",
+        img2: 'https://s8ul.store/cdn/shop/files/2_0a153665-9216-4644-9278-678e2ce2b835.png?v=1710795108&width=1206',
+        img3: 'https://s8ul.store/cdn/shop/files/3_527437a8-719b-4e59-997b-e2afbb52f4fb.png?v=1710795108&width=1206',
+        img4: 'https://s8ul.store/cdn/shop/files/4_29b9b1f1-2307-4878-8daa-6fcf1ad68916.png?v=1710795108&width=1206',
+        img5: '',
     },
     {
         id: 8,
         title: "S8UL Super Black Snapback",
         price: 999.00,
-        img: "https://s8ul.store/cdn/shop/files/1_c9a1e8db-d6f1-4f4e-96e0-fc03569ad9b2.png?v=1710794623&width=360"
+        img: "https://s8ul.store/cdn/shop/files/1_c9a1e8db-d6f1-4f4e-96e0-fc03569ad9b2.png?v=1710794623&width=360",
+        img2: 'https://s8ul.store/cdn/shop/files/2_70474048-71ee-4499-8609-93145c0d76ff.png?v=1710794622&width=1206',
+        img3: 'https://s8ul.store/cdn/shop/files/3_c1c5fbcc-5169-4792-a84e-fdcc106e3f87.png?v=1710794623&width=1206',
+        img4: 'https://s8ul.store/cdn/shop/files/4_aad3278c-ff38-4a8f-9ca0-9b74cc1609a4.png?v=1710794622&width=1206',
     },
     {
         id: 9,
         title: "Pika White Snapback",
         price: 999.00,
-        img: "https://s8ul.store/cdn/shop/files/1_ce9fc3e9-0de3-446d-981e-b5410a5bd589.png?v=1710793286&width=360"
+        img: "https://s8ul.store/cdn/shop/files/1_ce9fc3e9-0de3-446d-981e-b5410a5bd589.png?v=1710793286&width=360",
+        img2:'https://s8ul.store/cdn/shop/files/2_2b9e5fff-9332-47a8-b47c-0ddfe5c33262.png?v=1710793029&width=1206',
+        img3:'https://s8ul.store/cdn/shop/files/3_5e877953-2831-475b-847f-2a1af1512f4a.png?v=1710793014&width=1206',
+        img4:'https://s8ul.store/cdn/shop/files/4_9da2cb66-7d3e-4f45-932a-f0cef19e76c5.png?v=1710793013&width=1206',
     },
     {
         id: 10,
         title: "Malibu Club Trucker Hat",
         price: 999.00,
-        img: "https://s8ul.store/cdn/shop/files/1_64564fea-746e-48cf-92b7-9e3c23c7b1a1.png?v=1710792376&width=360"
+        img: "https://s8ul.store/cdn/shop/files/1_64564fea-746e-48cf-92b7-9e3c23c7b1a1.png?v=1710792376&width=360",
+        img2: 'https://s8ul.store/cdn/shop/files/3_e02ef198-323c-46cd-a1ae-a5af5bd0be1d.png?v=1710792412&width=1206',
+        img3: 'https://s8ul.store/cdn/shop/files/2_c85fdd9b-862e-443c-ad22-3364ecbf7ec6.png?v=1710792412&width=1206',
+        img4: 'https://s8ul.store/cdn/shop/files/4_8b5ab1ec-2192-4a2f-9a83-a3fef9a441c3.png?v=1710792412&width=1206',
     },
     {
         id: 11,
         title: "S8UL Off-White Snapbacks",
         price: 999.00,
-        img: "https://s8ul.store/cdn/shop/files/2_6801e6d1-2ea0-48ef-9224-c8bf63bf18f7.png?v=1710795694&width=360"
+        img: "https://s8ul.store/cdn/shop/files/2_6801e6d1-2ea0-48ef-9224-c8bf63bf18f7.png?v=1710795694&width=360",
+        img2: 'https://s8ul.store/cdn/shop/files/1_4a350c53-adf6-4307-a817-7ce9fd73cdfe.png?v=1710795694&width=1206',
+        img3: 'https://s8ul.store/cdn/shop/files/3_9a9ed578-f1b6-43e9-a744-8edf481fb092.png?v=1710795678&width=1206',
+        img4: 'https://s8ul.store/cdn/shop/files/1_e6701ef8-6f8e-4305-add4-883d2f3fd410.png?v=1710791872&width=1206',
     },
     {
         id: 12,
         title: "Team Assemble Snapback",
         price: 999.00,
-        img: "https://s8ul.store/cdn/shop/files/1_ff62209d-5f56-4e3f-a4d2-f16f2cbb86b4.png?v=1710792600&width=360"
+        img: "https://s8ul.store/cdn/shop/files/1_ff62209d-5f56-4e3f-a4d2-f16f2cbb86b4.png?v=1710792600&width=360",
+        img2: 'https://s8ul.store/cdn/shop/files/2_87e84d96-2dff-4acf-baf0-54da806447bb.png?v=1710792600&width=1206',
+        img3: 'https://s8ul.store/cdn/shop/files/3_d35bfb48-c5a7-4273-8490-c3584405ce39.png?v=1710792601&width=1206',
+        img4: 'https://s8ul.store/cdn/shop/files/4_6c1fd1e9-46c7-46c8-bebe-bf1eddbbe04f.png?v=1710792600&width=1206',
     },
     {
         id: 13,
         title: "8-BIT Green Snapbacks",
         price: 999.00,
-        img: "https://s8ul.store/cdn/shop/files/1_e6701ef8-6f8e-4305-add4-883d2f3fd410.png?v=1710791872&width=360"
+        img: "https://s8ul.store/cdn/shop/files/1_e6701ef8-6f8e-4305-add4-883d2f3fd410.png?v=1710791872&width=360",
+        img2: 'https://s8ul.store/cdn/shop/files/2_c8a50dc7-db5d-4b99-9ff4-ab8cc6434bbc.png?v=1710791873&width=1206',
+        img3: 'https://s8ul.store/cdn/shop/files/3_95ba67db-72f9-44d1-9ef8-ac28d011e440.png?v=1710791872&width=1206',
+        img4: 'https://s8ul.store/cdn/shop/files/4_ed518ed3-1a2d-4eed-b3c9-474a2ee79c71.png?v=1710791873&width=1206',
     },
     {
         id: 14,
         title: "Fruit Of The Devil Color Block",
         price: 999.00,
-        img: "https://s8ul.store/cdn/shop/files/3_ab4b62a8-cbdb-4948-94d1-02ebcbd17a86.png?v=1710794971&width=360"
+        img: "https://s8ul.store/cdn/shop/files/3_ab4b62a8-cbdb-4948-94d1-02ebcbd17a86.png?v=1710794971&width=360",
+        img2: 'https://s8ul.store/cdn/shop/files/3_ab4b62a8-cbdb-4948-94d1-02ebcbd17a86.png?v=1710794971&width=1206',
+        img3: 'https://s8ul.store/cdn/shop/files/2_2eeebfa4-ac17-434c-a39d-7e3c2c819cf5.png?v=1710794971&width=1206',
+        img4: 'https://s8ul.store/cdn/shop/files/1_c47f0d7b-ef5a-4810-8e3c-7e6e369a99eb.png?v=1710794971&width=1206',
     },
     {
         id: 15,
         title: "Pixels Lavender Snapback",
         price: 999.00,
-        img: "https://s8ul.store/cdn/shop/files/1_5479f292-b45f-4ab2-bdd5-65e91eaadfc4.png?v=1710794450&width=360"
+        img: "https://s8ul.store/cdn/shop/files/1_5479f292-b45f-4ab2-bdd5-65e91eaadfc4.png?v=1710794450&width=360",
+        img2: 'https://s8ul.store/cdn/shop/files/2_28e29930-18b0-4830-9dd1-9004b29d3162.png?v=1710794451&width=1206',
+        img3: 'https://s8ul.store/cdn/shop/files/3_67a5e0e4-672c-42cb-9fc0-cd5561ef5ce6.png?v=1710794451&width=1206',
+        img4: 'https://s8ul.store/cdn/shop/files/4_4d31aea0-7998-45eb-bb65-16bb053389df.png?v=1710794451&width=1206',
     },
     {
         id: 16,
         title: "Pixels Grey Snapback",
         price: 999.00,
-        img: "https://s8ul.store/cdn/shop/files/1_3d1d4720-2d4f-41fe-812a-c2c82ee991c4.png?v=1710794237&width=360"
+        img: "https://s8ul.store/cdn/shop/files/1_3d1d4720-2d4f-41fe-812a-c2c82ee991c4.png?v=1710794237&width=360",
+        img2: '',
+        img3: '',
+        img4: '',
+        img5: '',
     },
     {
         id: 17,
         title: "S8UL Colour Block Pink",
         price: 999.00,
-        img: "https://s8ul.store/cdn/shop/files/1_b6dd8403-4441-42dc-b932-449a52fc702c.png?v=1710795591&width=360"
+        img: "https://s8ul.store/cdn/shop/files/1_b6dd8403-4441-42dc-b932-449a52fc702c.png?v=1710795591&width=360",
+        img2: '',
+        img3: '',
+        img4: '',
+        img5: '',
     },
     {
         id: 18,
         title: "Swordman Olive Snapback",
         price: 999.00,
-        img: "https://s8ul.store/cdn/shop/files/1_6298a018-ce12-4353-8f55-4744d815ad04.png?v=1710793725&width=360"
+        img: "https://s8ul.store/cdn/shop/files/1_6298a018-ce12-4353-8f55-4744d815ad04.png?v=1710793725&width=360",
+        img2: 'https://s8ul.store/cdn/shop/files/2_4c42d41d-a79f-4a55-b389-198d5ebb375f.png?v=1710793725&width=1206',
+        img3: 'https://s8ul.store/cdn/shop/files/3_0f726db6-ad45-432d-80d8-cb198743a688.png?v=1710793725&width=1206',
+        img4: 'https://s8ul.store/cdn/shop/files/4_1e1158e3-2811-4451-88e2-2208a085db71.png?v=1710793725&width=1206',
     },
 ]
 
