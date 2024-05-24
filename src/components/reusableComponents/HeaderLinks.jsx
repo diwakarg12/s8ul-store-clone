@@ -11,49 +11,49 @@ const HeaderLinks = ({ handleSearchClick, showSearch, style }) => {
     <div className={`${style} w-full font-medium text-lg font-avenir`}>
       <div className='flex md:flex-row md:my-0 md:text-lg sm:flex-col sm:my-8 sm:text-2xl'>
         <Link
-          className='hover:underline hover:text-white mr-8 md:py-0 md:font-normal sm:py-1 sm:font-semibold'
+          className='hover:underline hover:text-white lg:mr-8 md:mr-2 md:py-0 md:font-normal sm:py-1 sm:font-semibold'
           to='/'
           title='Home'
         >
           Home
         </Link>
         <Link
-          className='hover:underline hover:text-white mr-8 md:py-0 md:font-normal sm:py-1 sm:font-semibold'
+          className='hover:underline hover:text-white lg:mr-8 md:mr-4 md:py-0 md:font-normal sm:py-1 sm:font-semibold'
           to='/snapbacks'
           title='Snapbacks'
         >
           Snapbacks
         </Link>
         <Link
-          className='hover:underline hover:text-white mr-8 md:py-0 md:font-normal sm:py-1 sm:font-semibold'
+          className='hover:underline hover:text-white lg:mr-8 md:mr-4 md:py-0 md:font-normal sm:py-1 sm:font-semibold'
           to='/limited-edition'
           title='Limited Edition'
         >
           Limited Edition
         </Link>
         <Link
-          className='hover:underline hover:text-white mr-8 md:py-0 md:font-normal sm:py-1 sm:font-semibold'
+          className='hover:underline hover:text-white lg:mr-8 md:mr-4 md:py-0 md:font-normal sm:py-1 sm:font-semibold'
           to='/s8ul-exclusive-merch'
           title='S8UL Exclusive Merch'
         >
           T-Shirts
         </Link>
         <Link
-          className='hover:underline hover:text-white mr-8 md:py-0 md:font-normal sm:py-1 sm:font-semibold'
+          className='hover:underline hover:text-white lg:mr-8 md:mr-4 md:py-0 md:font-normal sm:py-1 sm:font-semibold'
           to='/about'
           title='About'
         >
           About us
         </Link>
         <Link
-          className='hover:underline hover:text-white mr-8 md:py-0 md:font-normal sm:py-1 sm:font-semibold'
+          className='hover:underline hover:text-white lg:mr-8 md:mr-4 md:py-0 md:font-normal sm:py-1 sm:font-semibold'
           to='/contact'
           title='Contact'
         >
           Contact us
         </Link>
       </div>
-      <div className='flex items-center justify-center pl-10 md:pb-0 sm:pb-12'>
+      <div className='lg:flex sm:flex md:hidden items-center justify-center pl-10 md:pb-0 sm:pb-12'>
         {!showSearch && (
           <Select style={'bg-slate-800 text-slate-400'} data={country} />
         )}

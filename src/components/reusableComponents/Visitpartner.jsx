@@ -11,7 +11,7 @@ const Visitpartner = () => {
         </p>
         <Link
           to=''
-          className='bg-[#e3fc02] text-[#1f1f1f] text-lg font-avenir py-3 px-8'
+          className='bg-[#e3fc02] text-[#1f1f1f] text-lg font-avenir py-3 md:px-8 sm:px-12'
         >
           Visit Drippen Mocky
         </Link>
