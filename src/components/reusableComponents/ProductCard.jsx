@@ -5,7 +5,7 @@ const ProductCard = ({ url, title, price, style2 }) => {
   return (
     <Link
       to={`/product/${title}`}
-      className='lg:w-[19rem] md:w-[15rem] sm:w-[12rem] h-auto flex flex-col lg:mr-[2.3rem] md:px-4 sm:px-2 my-6'
+      className='lg:w-[19rem] md:w-[15rem] sm:w-[10rem] h-auto flex flex-col lg:mr-[2.3rem] md:px-4 sm:px-2 my-6'
     >
       <div className='bg-white overflow-hidden'>
         <img

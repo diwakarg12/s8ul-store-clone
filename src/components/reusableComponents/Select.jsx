@@ -3,7 +3,7 @@
 const Select = ({ style, data }) => {
   const countriesArray = data.split(', ');
   return (
-    <div>
+    <div className='mr-6'>
       <select
         name='Currency Selector'
         className={`${style} border-none focus:outline-none w-32`}
